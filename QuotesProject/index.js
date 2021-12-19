@@ -19,7 +19,7 @@ let realData ="";
         };
         const getQuotes = async() =>
         {
-            const api ="http://type.fit/api/quotes";
+            const api ="https://type.fit/api/quotes";
             try {
                 let data = await fetch(api);
                 realData =await data.json();
