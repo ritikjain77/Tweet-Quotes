@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    margin:0px;
+    padding: 0px;
+    /* color: white; */
+}
+.container
+{
+    box-sizing: border-box;
+    border: 2px solid #1DA1F2;
+    border-radius: 30px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    background-color: #1DA1F2;
+    width: 70vw;
+    height: 70vh;
+    margin: 15vh auto 15vh auto;
+}
+.box{
+    box-sizing: border-box;
+    background-color: white;
+    width: 49vw;
+    height: 49vh;
+    margin: 10.5vh auto;
+    /* position: absolute; */
+}
+.box
+{
+    padding: 0px;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#tweetme
+{
+    display: inline-block;
+    width: 3vw;
+    height: 5vh;
+    border-bottom-left-radius: 30px;
+    
+    
+}
+.number{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 3vw;
+    /* border: 2px solid black; */
+    margin: 0px;
+    position: absolute;
+    right: 0vw;
+    border-bottom-left-radius: 30px;
+    
+}
+.text{
+    /* box-sizing: border-box; */
+   /* border: 2px solid yellow; */
+   display: inline-block;
+   height: 30vh;
+   position: absolute;
+   top: 5vh;
+   width: 48.5vw;
+   font-family: 'Love Light', cursive;
+   font-size: 2em;
+}
+/* .button{
+    box-sizing: border-box;
+  border: 2px solid green;
+  
+  font-size: 2em;
+  padding: 0px;
+  /* height: 5vh; */
+#nquotes
+{
+    display: inline-block;
+  position: absolute;
+  bottom: 0vh;
+  width: 48.8vw;
+  font-size: 1.7em;
+    /* border: 2px solid yellow; */
+    background-color: rgb(13, 13, 162);
+    /* height: 5vh; */
+    text-align: center;
+    font-family: 'Moo Lah Lah', cursive;
+    color: white;
+}
+#fas{
+    position: absolute;
+    left: 3vw;
+}
+#quotes{
+    position: absolute;
+    top: 3vh;
+}
+#author{
+    position: absolute;
+    top:20vh;
+    right: 0px;
+}
+
+
